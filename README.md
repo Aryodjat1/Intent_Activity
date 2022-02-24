@@ -38,3 +38,5 @@ Layout Activity yang berisi button untuk mengaktifkan intent, terdiri dari :
 
 ![image](https://github.com/Aryodjat1/Intent_Activity/blob/master/screenshoot/Dial%20Number.jpg)
 
+![version](https://img.shields.io/badge/Thank%20You-brightgreen)
+

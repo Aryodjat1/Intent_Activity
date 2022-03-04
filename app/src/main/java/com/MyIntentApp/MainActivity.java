@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 findViewById(R.id.btn_dial_number);
         btnDialNumber.setOnClickListener(this);
 
+        Button btnMoveActivityResult =
+                findViewById(R.id.btn_move_with_result);
+        btnMoveActivityResult.setOnClickListener(this);
+
     }
 
     @Override
@@ -62,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(dialPhoneIntent);
                 break;
 
+            case R.id.btn_move_with_result:
+                Intent result = new Intent(MainActivity.this, MoveWithResultActivity.class);
+                startActivity(result);
+                break;
 
         }
 
